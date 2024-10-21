@@ -1,4 +1,4 @@
-package com.CEMPPS.controller;
+package com.CEMPPS.demo.controller;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -17,8 +17,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.CEMPPS.model.Todo;
-import com.CEMPPS.service.ITodoService;
+import com.CEMPPS.demo.model.Todo;
+import com.CEMPPS.demo.service.ITodoService;
+
+
 
 @Controller
 public class TodoController {

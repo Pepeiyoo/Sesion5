@@ -1,10 +1,12 @@
-package com.CEMPPS.service;
+package com.CEMPPS.demo.service;
 
 import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 
-import com.CEMPPS.model.Todo;
+import com.CEMPPS.demo.model.Todo;
+
+
 
 public interface ITodoService {
 

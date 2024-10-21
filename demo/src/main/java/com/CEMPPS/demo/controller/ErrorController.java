@@ -1,4 +1,4 @@
-package com.CEMPPS.controller;
+package com.CEMPPS.demo.controller;
 
 import javax.servlet.http.HttpServletRequest;
 

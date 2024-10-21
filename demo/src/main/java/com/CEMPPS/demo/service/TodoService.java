@@ -1,4 +1,4 @@
-package com.CEMPPS.service;
+package com.CEMPPS.demo.service;
 
 import java.util.Date;
 import java.util.List;
@@ -7,8 +7,10 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.CEMPPS.model.Todo;
-import com.CEMPPS.repository.TodoRepository;
+import com.CEMPPS.demo.model.Todo;
+import com.CEMPPS.demo.repository.TodoRepository;
+
+
 
 @Service
 public class TodoService implements ITodoService {
